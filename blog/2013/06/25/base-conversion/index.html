@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Base Conversion - Cholwich's Python Notes</title>
+  <title>แปลงเลขฐานต่างๆ - Cholwich's Python Notes</title>
   <meta name="author" content="Cholwich Nattee">
 
   
@@ -72,7 +72,7 @@
   
   <header>
     
-      <h1 class="entry-title">Base Conversion</h1>
+      <h1 class="entry-title">แปลงเลขฐานต่างๆ</h1>
     
     
       <p class="meta">
@@ -95,7 +95,7 @@
   </header>
 
 
-<div class="entry-content"><p>int ใช้สำหรับแปลง string แสดงเลขฐานต่างๆ ไปเป็นเลขค่าจำนวนเต็ม แล้วพิมพ์ออกมาเป็นฐานสิบได้ เช่น</p>
+<div class="entry-content"><p><code>int</code> ใช้สำหรับแปลง string แสดงเลขฐานต่างๆ ไปเป็นเลขค่าจำนวนเต็ม แล้วพิมพ์ออกมาเป็นฐานสิบได้ เช่น</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -105,6 +105,36 @@
 </span><span class='line'><span class="mi">1023</span>
 </span><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="nb">int</span><span class="p">(</span><span class="s">&#39;1010&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
 </span><span class='line'><span class="mi">10</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><code>hex</code> ใช้แปลงค่าจำนวนเต็ม ไปเป็น string เลขฐานสิบหก เช่น</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="nb">hex</span><span class="p">(</span><span class="mi">1023</span><span class="p">)</span>
+</span><span class='line'><span class="s">&#39;0x3ff&#39;</span>
+</span><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="nb">hex</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="s">&#39;1010&#39;</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+</span><span class='line'><span class="s">&#39;0xa&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><code>bin</code> ใช้แปลงค่าจำนวนเต็มไปเป็น string เลขฐานสอง เช่น</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="nb">bin</span><span class="p">(</span><span class="mi">1023</span><span class="p">)</span>
+</span><span class='line'><span class="s">&#39;0b1111111111&#39;</span>
+</span><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="nb">bin</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="s">&#39;0xa&#39;</span><span class="p">,</span><span class="mi">16</span><span class="p">))</span>
+</span><span class='line'><span class="s">&#39;0b1010&#39;</span>
+</span><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="nb">bin</span><span class="p">(</span><span class="mh">0xa</span><span class="p">)</span>
+</span><span class='line'><span class="s">&#39;0b1010&#39;</span>
 </span></code></pre></td></tr></table></div></figure>
 
 </div>
@@ -160,7 +190,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/06/25/base-conversion/">Base Conversion</a>
+        <a href="/blog/2013/06/25/base-conversion/">แปลงเลขฐานต่างๆ</a>
       </li>
     
   </ul>

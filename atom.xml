@@ -4,7 +4,7 @@
   <title><![CDATA[Cholwich's Python Notes]]></title>
   <link href="http://cholwich.github.io/atom.xml" rel="self"/>
   <link href="http://cholwich.github.io/"/>
-  <updated>2013-09-11T11:28:22+07:00</updated>
+  <updated>2013-09-11T11:42:32+07:00</updated>
   <id>http://cholwich.github.io/</id>
   <author>
     <name><![CDATA[Cholwich Nattee]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Base Conversion]]></title>
+    <link href="http://cholwich.github.io/blog/2013/09/11/base-conversion/"/>
+    <updated>2013-09-11T11:42:00+07:00</updated>
+    <id>http://cholwich.github.io/blog/2013/09/11/base-conversion</id>
+    <content type="html"><![CDATA[<p>ทดสอบ</p>
+]]></content>
+  </entry>
   
 </feed>

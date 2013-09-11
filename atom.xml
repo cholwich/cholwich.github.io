@@ -4,7 +4,7 @@
   <title><![CDATA[Cholwich's Python Notes]]></title>
   <link href="http://cholwich.github.io/atom.xml" rel="self"/>
   <link href="http://cholwich.github.io/"/>
-  <updated>2013-09-11T11:42:32+07:00</updated>
+  <updated>2013-09-11T11:58:41+07:00</updated>
   <id>http://cholwich.github.io/</id>
   <author>
     <name><![CDATA[Cholwich Nattee]]></name>
@@ -15,10 +15,21 @@
   
   <entry>
     <title type="html"><![CDATA[Base Conversion]]></title>
-    <link href="http://cholwich.github.io/blog/2013/09/11/base-conversion/"/>
-    <updated>2013-09-11T11:42:00+07:00</updated>
-    <id>http://cholwich.github.io/blog/2013/09/11/base-conversion</id>
-    <content type="html"><![CDATA[<p>ทดสอบ</p>
+    <link href="http://cholwich.github.io/blog/2013/06/25/base-conversion/"/>
+    <updated>2013-06-25T11:42:00+07:00</updated>
+    <id>http://cholwich.github.io/blog/2013/06/25/base-conversion</id>
+    <content type="html"><![CDATA[<p>int ใช้สำหรับแปลง string แสดงเลขฐานต่างๆ ไปเป็นเลขค่าจำนวนเต็ม แล้วพิมพ์ออกมาเป็นฐานสิบได้ เช่น</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="nb">int</span><span class="p">(</span><span class="s">&#39;3FF&#39;</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span>
+</span><span class='line'><span class="mi">1023</span>
+</span><span class='line'><span class="o">&gt;&gt;&gt;</span> <span class="nb">int</span><span class="p">(</span><span class="s">&#39;1010&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span><span class='line'><span class="mi">10</span>
+</span></code></pre></td></tr></table></div></figure>
+
 ]]></content>
   </entry>
   

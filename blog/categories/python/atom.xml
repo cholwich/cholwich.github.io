@@ -4,7 +4,7 @@
   <title><![CDATA[Category: python | Cholwich's Programming Notes]]></title>
   <link href="http://cholwich.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://cholwich.github.io/"/>
-  <updated>2013-09-11T14:31:30+07:00</updated>
+  <updated>2013-09-11T14:40:52+07:00</updated>
   <id>http://cholwich.github.io/</id>
   <author>
     <name><![CDATA[Cholwich Nattee]]></name>
@@ -18,37 +18,34 @@
     <link href="http://cholwich.github.io/blog/2013/06/25/base-conversion/"/>
     <updated>2013-06-25T11:42:00+07:00</updated>
     <id>http://cholwich.github.io/blog/2013/06/25/base-conversion</id>
-    <content type="html"><![CDATA[<p><code>int</code> ใช้สำหรับแปลง string แสดงเลขฐานต่างๆ ไปเป็นเลขค่าจำนวนเต็ม แล้วพิมพ์ออกมาเป็นฐานสิบได้ เช่น</p>
+    <content type="html"><![CDATA[<p><code>int</code> ใช้สำหรับแปลง string แสดงเลขฐานต่างๆ ไปเป็นเลขค่าจำนวนเต็ม แล้วพิมพ์ออกมาเป็นฐานสิบได้ เช่น </p>
 
-<p>``` python</p>
-
-<blockquote><blockquote><blockquote><p>int(&lsquo;3FF&rsquo;, 16)
+<p><code>python
+&gt;&gt;&gt; int('3FF', 16)
 1023
-int(&lsquo;1010&rsquo;, 2)
+&gt;&gt;&gt; int('1010', 2)
 10
-```</p></blockquote></blockquote></blockquote>
+</code></p>
 
-<p><code>hex</code> ใช้แปลงค่าจำนวนเต็ม ไปเป็น string เลขฐานสิบหก เช่น</p>
+<p><code>hex</code> ใช้แปลงค่าจำนวนเต็ม ไปเป็น string เลขฐานสิบหก เช่น </p>
 
-<p>``` python</p>
+<p><code>python
+&gt;&gt;&gt; hex(1023)
+'0x3ff'
+&gt;&gt;&gt; hex(int('1010',2))
+'0xa'
+</code></p>
 
-<blockquote><blockquote><blockquote><p>hex(1023)
-&lsquo;0x3ff&rsquo;
-hex(int(&lsquo;1010&rsquo;,2))
-&lsquo;0xa&rsquo;
-```</p></blockquote></blockquote></blockquote>
+<p><code>bin</code> ใช้แปลงค่าจำนวนเต็มไปเป็น string เลขฐานสอง เช่น </p>
 
-<p><code>bin</code> ใช้แปลงค่าจำนวนเต็มไปเป็น string เลขฐานสอง เช่น</p>
-
-<p>``` python</p>
-
-<blockquote><blockquote><blockquote><p>bin(1023)
-&lsquo;0b1111111111&rsquo;
-bin(int(&lsquo;0xa&rsquo;,16))
-&lsquo;0b1010&rsquo;
-bin(0xa)
-&lsquo;0b1010&rsquo;
-```</p></blockquote></blockquote></blockquote>
+<p><code>python
+&gt;&gt;&gt; bin(1023)
+'0b1111111111'
+&gt;&gt;&gt; bin(int('0xa',16))
+'0b1010'
+&gt;&gt;&gt; bin(0xa)
+'0b1010'
+</code></p>
 ]]></content>
   </entry>
   

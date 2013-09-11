@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Cholwich's Python Notes]]></title>
+  <title><![CDATA[Cholwich's Programming Notes]]></title>
   <link href="http://cholwich.github.io/atom.xml" rel="self"/>
   <link href="http://cholwich.github.io/"/>
-  <updated>2013-09-11T14:26:41+07:00</updated>
+  <updated>2013-09-11T14:31:30+07:00</updated>
   <id>http://cholwich.github.io/</id>
   <author>
     <name><![CDATA[Cholwich Nattee]]></name>
